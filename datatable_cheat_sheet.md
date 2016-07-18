@@ -4,8 +4,8 @@
  原文链接：[data-table-data-manipulation-r-tutorial](https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial)
 ---
 ##介绍
-
 R中的`data.table`包提供了一个`data.frame`的高级版本，让你的程序做数据整型的运算速度大大的增加。`data.table`已经在金融，基因工程学等领域大放光彩。他尤其适合那些需要处理大型数据集(比如1GB到100GB)需要在内存中处理数据的人。不过这个包的一些符号并不是很容易掌握，因为这些操作方式在R中比较少见。这也是这篇文章的目的，为了给大家提供一个速查的手册。
+
 ---
 通用格式: DT[i, j, by]，对于数据集DT，选取子集行i,通过by分组计算j
 ## 1.生成一个data.table对象
